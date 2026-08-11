@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SEO Profile Card</title>
+  <!--Posicionamiento y busqueda del engine-->
+  <meta name="description" content="My first seo profile card" />
+  <meta name="keywords" content="html, css, Javascript" />
+  <meta name="author" content="Lulu" />
+  <!--Add css-->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page">
+    <header>
+      <h1>My name is Lourdes Vilchez</h1>
+      <p>I'm a software developer who has took a break for her self and now is going to take her career in tech and have a <span class="small">nomade style life</span></p>
+    </header>
+    <main>
+      <div class="grid-2">
+        <!--Card A: About-->
+        <section class="card">
+          <h2>About</h2>
+          <p>She's cool</p>
+          <p>She's amazing</p>
+          <p>She's is gonna do it</p>
+        </section>
+        <!--Card B : Skills-->
+        <section class="card">
+          <h2>Skills</h2>
+          <ul>
+            <li>Learn</li>
+            <li>Aanalyze</li>
+            <li>Program</li>
+            <li>Use AI</li>
+            <li>System Thinking</li>
+          </ul>
+          <p class="small"> This list can change, depends of the person</p>
+        </section>
+        <!--Card 3 - Table section-->
+        <section class="card">
+          <h2>Weekly Focus</h2>
+          <table border="1">
+            <thead>
+              <tr>
+                <th>Day</th>
+                <th>Topic</th>
+                <th>Goal</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>11/08/2026</td>
+                <td>Html projects</td>
+                <td>Finish Create an SEO Profile Card</td>
+              </tr>
+              <tr>
+                <td>11/08/2026</td>
+                <td>Html projects</td>
+                <td>Create a Recipe Table and Lists</td>
+              </tr>
+               <tr>
+                <td>11/08/2026</td>
+                <td>Html projects</td>
+                <td>Create an Event Signup</td>
+              </tr>
+            </tbody>
+          </table>
+        </section> 
+        <!--Card 4 - Form Section-->
+        <section class="card">
+           <h3>Contact</h3> 
+           <form>
+             <label for="name">Name: </label>
+             <input type="text" id="name" required/>
+             <br />
+             <label for="email">Email:</label>
+             <input type="email" id="email" required />
+             <br>
+             <label for="dropdown">Choose a option:</label>
+             <select id="dropdown">
+              <option value="">Please select</option>
+              <option value="A">A</option>
+              <option value="B">B</option>
+              <option value="C">C</option>
+            </select>
+            <br /> <!--linebreak-->
+            <label for="comment">Give us some feedback:</label>
+            <br /> <!--linebreak-->
+            <textarea id="comment" name="comment"></textarea>
+            <br /> <!--linebreak-->
+            <button type="submit">Sign up</button>
+           </form>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <p>© Made by Lourdes Vilchez - August 2026</p>
+      <ol>
+        <li>Linkedin</li>
+        <li>Facebook</li>
+        <li>TikTok</li>
+      </ol>
+    </footer>
+  </div>
+</body>
+</html>
