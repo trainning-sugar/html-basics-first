@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="description" content="A fully Structure HTML page"/>
+  <meta name="keywords" content="HTML, CSS, Javascript"/>
+  <meta name="author" content="Lulu"/>
+  <title>My Complete web site</title>
+</head>
+<body>
+  <!--Semantic html son divs con nombres descriptivos-->
+  <header>
+    <h1>Welcome to my webpages</h1>
+    <p>This page containts various HTML elements we have learned</p>
+  </header>
+  <!--First section-->
+  <section>
+    <h2>Topics Covered</h2>
+    <ul>
+      <li>HTML Structure</li>
+      <li>Meta tags</li>
+      <li>Heading, Paragraphs, Spans and Divs</li>
+      <li>Lists</li>
+      <li>Tables</li>
+      <li>Forms</li>
+    </ul>
+  </section>
+  <!--Table section-->
+  <section>
+    <h2>Students scores</h2>
+    <table border="1">
+      <!--Headers table-->
+      <tr>
+        <th>Name</th>
+        <th>Score</th>
+        <th>Programing course</th>
+      </tr>
+      <tr>
+        <td>Lulu</td>
+        <td>100</td>
+        <td>Js</td>
+      </tr>
+      <tr>
+        <td>Pedro</td>
+        <td>200</td>
+        <td>Python</td>
+      </tr>
+    </table>
+    <br />
+  </section>
+  <!--Form section-->
+  <section>
+    <h2>Enter your data</h2>
+    <form>
+      <label for="name">Name: </label>
+      <input type="text" id="name" required/>
+      <br />
+      <label for="email">Email:</label>
+      <input type="email" id="email" required />
+      <br />
+      <label for="password">Password:</label>
+      <input type="password" id="password" required />
+      <br />
+      <br />
+      <select id="country">
+        <option value="">Please select</option>
+        <option value="USA">USA</option>
+        <option value="Korea">Korea</option>
+        <option value="Mexico">Mexico</option>
+      </select>
+        <br /> <!--linebreak-->
+        <br /> <!--linebreak-->
+    <button type="submit">Sign up</button>
+  </form>
+  </section>
+  <footer>
+    <p>Create by Lulu on August 2026</p>
+  </footer>
+</body>
+</html>
