@@ -86,3 +86,43 @@
 🎯 PROJECT GOAL
       Build a recipe/meal-planning page that practices semantic structure, meta tags, headings, lists, a detailed ingredients table, and a small form for adding a shopping note.
 
+# Project 3: Community Event Signup
+
+What you will build
+Build an event info + signup page that practices structure, SEO meta tags, headings, lists, a schedule table, and a complete form with multiple input types.
+
+What you will practice (HTML Essentials)
+Overview of HTML
+You will see how HTML is the structure of a webpage.
+
+HTML Structure
+You will use: <!DOCTYPE html>, <html>, <head>, <body>
+
+Meta Tags & SEO
+You will add:
+
+charset (character set)
+viewport (mobile responsiveness)
+description, keywords, author (SEO + page info)
+Headings, Paragraphs, Divs, and Spans
+You will use:
+
+Headings (<h1>, <h2>, <h3>)
+Paragraphs (<p>)
+Divs (<div>) to group sections
+Spans (<span>) to style small parts of text
+Working with Tables
+You will use:
+
+<table>, <thead>, <tbody>, <tr>, <th>, <td>
+Working with Lists
+You will use:
+
+Unordered lists (<ul><li>)
+Ordered lists (<ol><li>)
+Forms and User Input
+You will use:
+
+<form>, <label>, <input>, <select>, <textarea>, <button>
+How to run
+Open index.html in your browser.
