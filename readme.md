@@ -14,44 +14,34 @@
       paragraphs, div/span grouping, lists, a small table, and a contact form.
 
 
-  <!-- STEP 1 — Add your basic meta tags -->
+  ## STEP 1 — Add your basic meta tags
 
       Inside <head>, add:
-      1) <meta charset="UTF-8">
-      2) <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      3) <title>...</title> (use a title that matches this project)
-      4) <meta name="description" content="..."> (short: 1–2 sentences)
-      5) <meta name="keywords" content="..."> (comma-separated keywords)
-      6) <meta name="author" content="...">
-
-
-    <!-- STEP 2 — Link your CSS file (optional but recommended) -->
-    <!--
+      1 <meta charset="UTF-8">
+      2 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      3 <title>...</title> (use a title that matches this project)
+      4 <meta name="description" content="..."> (short: 1–2 sentences)
+      5 <meta name="keywords" content="..."> (comma-separated keywords)
+      6 <meta name="author" content="..."
+    
+  ## STEP 2 — Link your CSS file (optional but recommended)
       Add: <link rel="stylesheet" href="styles.css">
       Even if the focus is HTML, a tiny bit of CSS helps you *see* your structure.
-    -->
-  </head>
-  <body>
-    <!-- STEP 3 — Create a semantic page layout -->
-    <!--
+  ## STEP 3 — Create a semantic page layout
       Create the main layout using semantic tags:
       - <header> for the top section
       - <main> for the main content
       - <footer> for the bottom section
       Tip: Wrap everything in a <div class="page"> if you want a single container.
-    -->
 
-    <!-- STEP 4 — Header content (Headings + span) -->
-    <!--
+  ## STEP 4 — Header content (Headings + span)
       Inside <header>, add:
       - One <h1> with your name or brand
       - One <p> that describes you in 1–2 lines
       - Inside that <p>, wrap ONE important word in a <span class="small">...</span> OR <span>...</span>
         (Example idea: "Front-End" or "Mentor")
-    -->
 
-    <!-- STEP 5 — Main content with 2 sections (Divs + Lists) -->
-    <!--
+  ## STEP 5 — Main content with 2 sections (Divs + Lists)
       Inside <main>, create a <div class="grid-2"> to hold two cards side-by-side (on desktop).
       Card A: <section class="card"> with:
       - <h2>About</h2>
@@ -60,18 +50,14 @@
       - <h2>Skills</h2>
       - A <ul> list of at least 5 skills
       - A <p class="small"> note under the list
-    -->
 
-    <!-- STEP 6 — Add a small table (Tables) -->
-    <!--
+  ## STEP 6 — Add a small table (Tables)
       Below the cards, add another <section class="card"> with:
       - <h2>Weekly Focus</h2>
       - A <table> with a <thead> and <tbody>
       - Include 3 rows in <tbody> (example: Day / Topic / Goal)
-    -->
 
-    <!-- STEP 7 — Add a contact form (Forms) -->
-    <!--
+  ## STEP 7 — Add a contact form (Forms)
       Add another <section class="card"> with:
       - <h3>Contact</h3>
       - A <form> that contains:
@@ -81,17 +67,13 @@
         4) Message textarea
         5) Submit button
       Important: each input MUST have a matching <label> with for/id.
-    -->
 
-    <!-- STEP 8 — Footer (Structure) -->
-    <!--
+  ## STEP 8 — Footer (Structure)
       Inside <footer>, add:
       - A <p> with copyright text
       - An <ol> with 3 quick links you *would* add (just placeholders)
-    -->
 
-    <!-- STEP LAST — Validate your HTML -->
-    <!--
+  ## STEP LAST — Validate your HTML
       Quick self-check:
       ✅ Do you have ONLY ONE <h1>?
       ✅ Are your headings in order? (h1 → h2 → h3)
@@ -99,5 +81,8 @@
       ✅ Does your table have <thead> and <tbody>?
       ✅ Did you use BOTH a list and a table somewhere?
       ✅ Did you use a <span> to style a *small* piece of text inside a bigger element?
-    -->
+
+# Project 2 : Recipe Planner: Table + Lists
+🎯 PROJECT GOAL
+      Build a recipe/meal-planning page that practices semantic structure, meta tags, headings, lists, a detailed ingredients table, and a small form for adding a shopping note.
 

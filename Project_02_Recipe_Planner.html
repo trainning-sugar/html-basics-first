@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Recipe Planner</title>
+  <!-- STEP 1 — Add your basic meta tags -->
+  <!--Posicionamiento y busqueda del engine-->
+  <meta name="description" content="My first recipe planner" />
+  <meta name="keywords" content="html, css, " />
+  <meta name="author" content="Lulu" />
+  <!-- STEP 2 — Link your CSS file (optional but recommended) -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- STEP 3 — Create a semantic page layout -->
+  <div class="page">
+    <!-- STEP 4 — Header (title + intro paragraph) -->
+    <header>
+      <h1>Recipe Planner</h1>
+      <p>This is a Recipe Planner everything <span class="small"> do you want to cook in one place </span></p>
+    </header>
+    <!-- STEP 5 — Main section A (Lists) -->
+    <main>
+      <section class="card">
+        <h2>Today's plan</h2>
+        <ul>
+          <li>meal 1</li>
+          <li>meal 2</li>
+          <li>meal 3</li>
+        </ul>
+        <ol>
+          <li>Step 1</li>
+          <li>Step 2</li>
+          <li>Step 3</li>
+        </ol>
+      </section>
+       <!-- STEP 6 — Main section B (Tables) -->
+      <section class="card">
+        <table border="1">
+          <thead>
+            <tr>
+              <th>Ingredient</th>
+              <th>Amount</th>
+              <th>Notes</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Potatoes</td>
+              <td>10</td>
+              <td>Note 1</td>
+            </tr>
+            <tr>
+              <td>Tomatos</td>
+              <td>20</td>
+              <td>Note 2</td>
+            </tr>
+            <tr>
+              <td>Meat</td>
+              <td>30</td>
+              <td>Note 3</td>
+            </tr>
+            <tr>
+              <td>Spaguetti</td>
+              <td>2</td>
+              <td>Note 4</td>
+            </tr>
+            <tr>
+              <td>Rice</td>
+              <td>4</td>
+              <td>Note 5</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <!-- STEP 7 — Main section C (Form) -->
+      <section class="card">
+        <h2>Shopping note</h2>
+        <form>
+          <label for="item">First name:</label><br>
+          <input type="text" id="item" name="item"><br>
+          <label for="quantity">Quantity:</label><br>
+          <input type="number" id="quantity" name="quantity"><br>
+          
+          <label for="category">Choose a option:</label><br>
+          <select name="category" id="category">
+            <option value=""></option>
+            <option value="produce">Produce</option>
+            <option value="dairy">Dairy</option>
+            <option value="protein">Protein</option>
+            <option value="fats">Fats</option>
+          </select>
+          <br>
+          <label for="notes">Extra notes:</label>
+          <br>
+          <textarea id="notes" name="notes"></textarea>
+          <br>
+          <button type="submit">Sign up</button>
+        </form>
+      </section>
+    </main>
+     <!-- STEP 8 — Footer (tiny SEO reminder) -->
+    <footer>
+      <p class="small">A meta description is a short HTML tag that summarizes a web page's content</p>
+      <p>© Made by Lourdes Vilchez - August 2026</p>
+    </footer>
+  </div>
+</body>
