@@ -1,3 +1,8 @@
+/* 
+  Tiny CSS (optional)
+  The goal is NOT to become a CSS project.
+  This is just to make your HTML structure easier to see.
+*/
 * {
   box-sizing: border-box;
 }
@@ -12,7 +17,6 @@ body {
   margin: 0 auto;
   padding: 24px;
 }
-
 header,
 footer {
   padding: 16px;

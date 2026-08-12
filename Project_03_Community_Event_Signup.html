@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Community Event Signup</title>
+   <!-- STEP 1 — Add your basic meta tags -->
+  <meta name="description" content="My first Community Event Signup" />
+  <meta name="keywords" content="html, css, Community, form" />
+  <meta name="author" content="Lulu" />
+  <!-- STEP 2 — Link your CSS file (optional but recommended) -->
+  <link rel="stylesheet" href="styles3.css">
+</head>
+<body>
+   <!-- STEP 3 — Create a semantic page layout -->
+  <div class="page">
+     <!-- STEP 4 — Header (Event title + details) -->
+    <header>
+       <h1>Coding with Lulu</h1> 
+       <p>Tomorrow August 12 By <span>Zoom</span></p>
+    </header>
+    <main>
+      <!-- STEP 5 — Main section A (Event highlights list) -->
+       <section class="card">
+        <h2>Event Highlights</h2>
+        <ul>
+          <li>Highlight 1</li>
+          <li>Highlight 2</li>
+          <li>Highlight 3</li>
+          <li>Highlight 4</li>
+          <li>Highlight 5</li>
+        </ul>
+        <p class="small">HTML lists allow web developers to group a set of related items in lists.</p>
+       </section>
+        <!-- STEP 6 — Main section B (Schedule table) -->
+       <section class="card">
+        <h2>Schedule</h2>
+        <table border="1">
+          <thead>
+            <tr>
+              <th>Time</th>
+              <th>Activity</th>
+              <th>Notes</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Time 1</td>
+              <td>Learn</td>
+              <td>Note1</td>
+            </tr>
+            <tr>
+              <td>Time 2</td>
+              <td>Read</td>
+              <td>Note 2</td>
+            </tr>
+            <tr>
+              <td>Time 3</td>
+              <td>Speak</td>
+              <td>Note 3</td>
+            </tr>
+            <tr>
+              <td>Time 4</td>
+              <td>Space repetition</td>
+              <td>Note 4</td>
+            </tr>
+          </tbody>
+        </table>
+       </section>
+       <!-- STEP 7 — Main section C (Signup form) -->
+      <section class="card">
+        <h3>Signup</h3>
+        <form>
+          <label for="name">Full name:</label><br>
+          <input type="text" id="name" name="name"><br>
+          <label for="email">Email:</label><br>
+          <input type="email" id="email" name="email"><br>
+          
+          <label for="category">Ticket type:</label><br>
+          <select name="category" id="category">
+            <option value=""></option>
+            <option value="A">A</option>
+            <option value="B">B</option>
+            <option value="C">C</option>
+            <option value="D">D</option>
+          </select>
+          <br>
+           <h3>Dietary preference</h3>
+            <input type="radio" id="vegan" name="fav_language" value="Vegan">
+            <label for="vegan">Vegan</label><br>
+            <input type="radio" id="pescatarian" name="fav_language" value="Pescatarian">
+            <label for="pescatarian">Pescatarian</label><br>
+            <input type="radio" id="gluten-free" name="fav_language" value="Gluten-Free">
+            <label for="gluten-free">Gluten-Free</label><br><br>
+
+            <input type="checkbox" id="terms" name="terms" value="true">
+            <label for="terms">Agree to terms</label><br>
+            <br>
+          <label for="message">Message:</label>
+          <br>
+          <textarea id="message" name="message"></textarea>
+          <br>
+          <button type="submit">Sign up</button>
+        </form> 
+      </section>
+    </main>
+     <!-- STEP 8 — Footer (Mini SEO checklist) -->
+    <footer>
+      <ol>
+        <li>Title is clear</li>
+        <li>Meta description exists</li>
+        <li>Headings are in order</li>
+      </ol>
+      <p>© Made by Lourdes Vilchez - August 2026</p>
+    </footer>
+  </div>
+  
+</body>
+</html>
