@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Semantic_Portfolio_Media_Embed</title>
+  
+  <!-- STEP 1 — Add the basic <meta> tags -->
+  <meta name="description" content="Understanding Semantic HTML (choosing tags by meaning)">
+  <meta name="keywords" content="semantic html">
+  <meta name="author" content="Lourdes">
+  
+  <!-- STEP 2 — Link the CSS file -->
+  <link rel="stylesheet" href="styles5.css">
+</head>
+<body>
+  <!-- STEP 3 — Create the outer page container -->
+   <div class="page">
+      <!-- STEP 4 — Add the main semantic layout tags -->
+      <!--  WHY THIS MATTERS: These tags tell the browser and screen readers what each part is. -->
+
+    <!-- STEP 5 — Header content -->
+      <header>
+      <h1>Semantic Portfolio Media Embed</h1>
+      <p class="small">Semantic HTML</p>
+      <a class="skip" href="#content">Skip to content</a>
+    </header>
+    
+    <!-- STEP 6 — Navigation with internal anchor links -->
+    <nav>
+      <ul>
+        <!--  IMPORTANT RULE: The href like "#media" ONLY works if a section later has id="media".--> 
+        <li><a href="#content">Content</a></li>
+        <li><a href="#media">Media</a></li>
+        <li><a href="#embed">Embed</a></li>
+        <li><a href="#extras">Extras</a></li>
+      </ul>
+    </nav>
+
+     <!-- STEP 7 — Main content + section IDs -->
+    <main id="content">
+      
+      <!-- STEP 8 — Portfolio sections using <section> + <article> -->
+      <section id="extras">
+        <h2>Portfolio projects</h2>
+        
+        <article class="card">
+          <h3>Project title</h3>
+          <p>Description</p>
+          <a href="#" blank="_blank" >Project 1</a>
+        </article>
+        
+        <article class="card">
+          <h3>Project title 2</h3>
+          <p>Description 2</p>
+          <a href="#" blank="_blank" >Project 2</a>
+        </article>
+      </section>
+
+      <!-- STEP 9 — Media section (image + audio + video) -->
+      <section id="media">
+        <h2>Media Section</h2>
+        
+        <figure class="card">
+          <img 
+            src="./dados.jpg" 
+            alt="portfolio-photo-1"
+            width="150">
+          <figcaption>Four dice</figcaption>
+        </figure>
+        <audio controls>
+          <source src="/Cómo_se_construye_realmente_el_software_profesional.m4a" type="audio/mpeg"/>
+        </audio>
+        <video controls>
+          <source src="" type="video/mp4">
+        </video>
+
+      </section>
+    
+      <!-- STEP 10 — Embed section (iframe) -->
+      <section id="embed">
+        <h2>Embed section</h2>
+        <iframe
+          id="inlineFrameExample"
+          title="Map to campus"
+          width="300"
+          height="200"
+          src="https://www.openstreetmap.org/export/embed.html?bbox=-0.004017949104309083%2C51.47612752641776%2C0.00030577182769775396%2C51.478569861898606&amp;layer=mapnik">
+        </iframe>
+        <iframe 
+          title="Map to campus"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3900.39666630836!2d-77.02569672579128!3d-12.153375243893159!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105b792bed28a95%3A0xdc4de9dbd18aec82!2sLavalle%20100%2C%20Lima%2015063!5e0!3m2!1sen!2spe!4v1786594949534!5m2!1sen!2spe" 
+          width="400" 
+          height="300" 
+          style="border:0;" 
+          allowfullscreen="" 
+          loading="lazy" 
+          referrerpolicy="strict-origin-when-cross-origin"></iframe>
+      </section>
+    </main>
+    <!-- STEP 11 — Aside content -->
+    <aside>
+      <h2>Quick tips</h2>
+      <ul>
+        <li>Improves Accessibility</li>
+        <li>Boosts SEO</li>
+        <li>Cleaner Codebase</li>
+        <li><a href="https://developer.mozilla.org/en-US/docs/Glossary/Semantics">Learn more about semantic HTML</a></li>
+      </ul>
+    </aside>
+     <!-- STEP 12 — Footer content -->
+    <footer>
+      <p class="small">&copy; made by Lourdes Vilchez</p>
+      <a href="https://www.ejemplo.com" target="_blank" rel="noopener noreferrer">Visit our projects</a>
+    </footer>
+   
+   </div>
+</body>
+</html>

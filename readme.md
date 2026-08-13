@@ -94,4 +94,15 @@
  🎯 PROJECT GOAL
       Add at least one header, nav, main, article, aside and footer
       include hyperlinks, image and embebed youtube video
-    
+      
+# Project 5 : 🧠 PROJECT: Semantic Portfolio + Media + Embed
+
+      ✅ MODULE TOPICS THIS PROJECT PRACTICES
+      1) Introduction to Semantic HTML
+      2) Understanding Semantic HTML (choosing tags by meaning)
+      3) Anchor Tags & Hyperlinks
+      4) Adding Images, Audio, and Video
+      5) Embedding content with <iframe>
+
+      🎯 PROJECT GOAL
+      Build a simple portfolio landing page that uses semantic layout, includes media (image/audio/video), and embeds an iframe (YouTube or Maps).
