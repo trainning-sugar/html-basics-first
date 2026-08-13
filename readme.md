@@ -89,3 +89,9 @@
 # Project 3: Community Event Signup
  🎯 PROJECT GOAL
       Build an event info + signup page that practices structure, SEO meta tags, headings, lists, a schedule table, and a complete form with multiple input types.
+
+# Project 4: Personal Blog Homepage using Semantic HTML
+ 🎯 PROJECT GOAL
+      Add at least one header, nav, main, article, aside and footer
+      include hyperlinks, image and embebed youtube video
+    
